@@ -8,6 +8,4 @@ FS Shim provides build-dependent implementations of the `io/fs` and `testing/fst
 - With go 1.16 or later, an implementation which aliases the standard library is used.
 - With an earlier version of go, a forked version of the go 1.16 implementation is used.
 
-This allows use features of `io/fs` without immediately requiring go 1.16.
-
-As soon as it's reasonable to require go 1.16, use of this shim should be removed.
+This allows the use of `io/fs` features without immediately requiring go 1.16, but this shim should be removed as soon as it's reasonable to require go 1.16.
