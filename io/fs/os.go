@@ -75,4 +75,4 @@ type fileInfo struct {
 	os.FileInfo
 }
 
-func (fi fileInfo) Mode() FileMode { return FileMode(fi.Mode()) }
+func (fi fileInfo) Mode() FileMode { return FileMode(fi.FileInfo.Mode()) }
