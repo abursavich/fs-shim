@@ -2,8 +2,6 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-// +build !go1.16
-
 package fs
 
 // A StatFS is a file system with a Stat method.
